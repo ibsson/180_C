@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(){
+
+    double x = 0;
+    double y = 0;
+    int room = 0;
+
+    printf("2개의 정수값을 입력하세요.\n");
+    printf("정수 x : ");
+    scanf("%lf", &x);
+    printf("정수 y : ");
+    scanf("%lf", &y);
+
+    room = x / y * 100;
+
+    printf("%d%%", room);
+
+    return 0;
+}
+
+//읽어들인 정수값 2개의 비율을 백분율로 출력하는 프로그램
